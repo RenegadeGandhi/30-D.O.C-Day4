@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6D71C;
+}
+
+.main-nav{
+    width: 100%;
+    background-color: #0D0D0D;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.brand{
+    font-family: 'Long Cang', cursive;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.6em;
+}
+
+.other-nav{
+    margin-left: auto;
+    padding: 16px 5px 10px;
+    font-size: 0.5em;
+}
+
+.main-intro{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.main-intro-image img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.main-intro-text{
+    text-align: center;
+    margin-top: 65px;
+}
+
+.main-intro-text h1{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.tagline{
+    margin: 0;
+    text-align: end;
+    padding-right: 130px;
+    font-style: italic;
+}
+
+.intro-text{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    padding: 30px 60px 20px 60px;
+}
+
+.offer{
+    background-color: #f3eddc;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h4{
+    font-family: 'Long Cang', cursive;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.aim{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 15px;
+    grid-template-rows: 1fr;
+    text-align: center;
+    background-color: #f3eddc;
+}
+
+.aim img{
+    height: 150px;
+    width: 150px;
+}
+
+.aim p{
+    margin: 0;
+    font-size: 15px;
+    padding: 0 60px 5px 60px;
+    line-height: 20px;
+}
+
+.premium{
+    display: grid;
+    padding-bottom: 15px;
+}
+
+.premium h1{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 15px 0 5px 15px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom-left-radius: 10px;
+    width: 350px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.premium p{
+    margin: 0;
+    font-size: 20px;
+    padding: 15px 50px 10px 100px;
+}
+
+.artist{
+    background-color: #f3eddc;
+    margin: 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.artist-gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    grid-template-rows: 1fr;
+    text-align: center;
+    background-color: #f3eddc;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.artist1{
+    transition: all 0.4s ease-in-out; 
+}
+
+.artist1:hover{
+    transform: scale(1.05);
+}
+
+.artist-gallery img{
+    height: 150px;
+    width: 150px;
+}
+
+.artist-gallery p{
+    margin: 0;
+    font-size: 15px;
+    padding: 0 60px 5px 60px;
+    line-height: 20px;
+}
+
+.semi-footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #000000be;
+    color: whitesmoke;
+}
+
+.watermark{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.watermark h1{
+    font-family: 'Long Cang', cursive;
+    margin: 5px 0 5px 25px;
+}
+
+.watermark p{
+    margin: 3px 0 5px 25px;
+    font-size: 14px;
+}
+
+.about h3, .product h3{
+    margin: 10px 0 0 0;
+}
+
+.about ul, .product ul{
+    list-style: none;
+    margin: 3px 0 5px 0;
+    padding: 5px 50px 0 0;
+}
+
+.about li, .product li{
+    padding-bottom: 6px;
+}
